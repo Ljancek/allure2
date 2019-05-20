@@ -50,7 +50,6 @@
         <iframe class="{{b 'attachment__iframe' fullscreen=fullScreen}}" frameborder="0" src="{{sourceUrl}}"></iframe>
 {{else}}
     <div class="{{b 'attachment__text-container' fullscreen=fullScreen}}">
-        <span class="fa fa-download"></span>
-        <a class="link" href="{{sourceUrl}}" download>Click to download attachment</a>
+        <img class="attachment__media" src=="{{sourceUrl}}">
     </div>
 {{/if}}
